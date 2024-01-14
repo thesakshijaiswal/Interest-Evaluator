@@ -1,4 +1,4 @@
-const principal = document.getElementById("principle");
+const principal = document.getElementById("principal");
 const rate = document.getElementById("rate");
 const year = document.getElementById("year");
 const result = document.getElementById("result");
