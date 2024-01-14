@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg, #7b2bff, #511ca8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px 35px;
+  background: #15072b;
+  border-radius: 20px;
+  width: 400px;
+  gap: 1.3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container h1 {
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.container h1 i {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.container label {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.container .input-box {
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #fff;
+  font-size: 0.8rem;
+}
+
+.resultGenerator p {
+  background: #fff;
+  margin-right: 10px;
+  color: #717171;
+  text-align: center;
+  padding: 11px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.resultGenerator {
+  display: flex;
+}
+
+.container button,
+p {
+  width: 50%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #511ca8;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+@media(max-width:600px) {
+  .container {
+    width: 350px;
+    padding: 15px 25px;
+    gap: 1rem;
+  }
+
+  .container h1 {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+  }
+
+  .container .input-box {
+    height: 40px;
+    padding: 12px;
+    font-size: 0.8rem;
+  }
+
+  .container button,
+  p {
+    height: 40px;
+    font-size: 0.9rem;
+  }
+}
