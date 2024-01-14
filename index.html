@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Intrest Evaluator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Intre$t Evaluator<i class="ri-handbag-line"></i></h1>
+    <label>Pricipal Amount</label>
+    <input type="number" class="input-box" placeholder="Enter principal amount" id="principle">
+    <label>Intrest Rate</label>
+    <input type="number" class="input-box" placeholder="Enter the rate of intrest pay" id="rate">
+    <label>No. of Years</label>
+    <input type="number" class="input-box" placeholder="Enter number of years" id="year">
+    <div class="resultGenerator">
+      <p class="result" id="result">Result goes here</p>
+      <button id="evalBtn" onclick="results()">Evaluate</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
