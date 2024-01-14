@@ -1,4 +1,4 @@
-const principle = document.getElementById("principle");
+const principal = document.getElementById("principle");
 const rate = document.getElementById("rate");
 const year = document.getElementById("year");
 const result = document.getElementById("result");
@@ -9,6 +9,6 @@ function evaluate(p, r, n) {
 }
 
 function results() {
-  evaluate(principle.value, rate.value, year.value)
+  evaluate(principal.value, rate.value, year.value)
   result.style = "color: black"
 }
